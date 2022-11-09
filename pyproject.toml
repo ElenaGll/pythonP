@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python"
+version = "0.1.0"
+description = ""
+authors = ["Elena Donyakina <hellengoll@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "brain_tasks" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+longest-lenght = "brain_tasks.scripts.s_longest_lenght:main"
+examples = "brain_tasks.scripts.s_examples:main"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
