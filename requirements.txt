@@ -1,4 +1,4 @@
 flake8      5.0.4 the modular source code checker: pep8 pyflakes and co
 mccabe      0.7.0 McCabe checker, plugin for flake8
-pycodestyle 2.9.1 Python style guide checker
 pyflakes    2.5.0 passive checker of Python programs
+pycodestyle 2.9.1 Python style guide checker
