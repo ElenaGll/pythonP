@@ -3,5 +3,3 @@ def reduce(operation, initial_value, items):
     for item in items:
         acc = operation(acc, item)
     return acc
-
-

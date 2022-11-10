@@ -15,8 +15,6 @@ def find_where(books, search):
                 if book['year'] == search['year']:
                     return book
             return None
-        # elif 'author' or 'year' not in list(search.keys()):
-        #     return None
         else:
             return None
     else:

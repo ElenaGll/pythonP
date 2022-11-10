@@ -1,11 +1,11 @@
 # !/usr/bin/env python3
 
 
-from brain_tasks.tasks.examples import sort_by_ext
+from brain_tasks.tasks.examples import write
 
 
 def main():
-    print(sort_by_ext(["1.cad", "1.bat", "1.aa", "2.bat"]))
+    print(write())
 
 
 if __name__ == '__main__':

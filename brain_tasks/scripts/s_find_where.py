@@ -14,7 +14,7 @@ def main():
         {'title': 'Happy Foo', 'author': 'FooBar', 'year': 4444},
     ]
 
-    print(find_where(books, books[2])) #books[2]
+    print(find_where(books, books[2]))  # books[2]
 
 
 if __name__ == '__main__':
