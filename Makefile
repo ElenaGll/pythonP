@@ -21,3 +21,6 @@ package-reinstall:
 
 lint:
 	poetry run flake8 brain_tasks
+
+test:
+	env PYTHONPATH="$(pwd)" python3 tests/test_longest_length.py
