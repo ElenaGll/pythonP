@@ -1,5 +1,8 @@
+new:
+	poetry new  # создание базовой структуры
+
 install:
-	poetry install
+	poetry install  # установка зависимостей
 
 longest-lenght:
 	poetry run longest-lenght
@@ -24,3 +27,13 @@ lint:
 
 test:
 	env PYTHONPATH="$(pwd)" python3 tests/test_longest_length.py
+
+pytest:
+	poetry run pytest
+
+pytest-print:
+	poetry run pytest -s  # видно все, что выводится с помощью print
+
+pytest-current:
+	poetry run pytest tests/test_.py
+
