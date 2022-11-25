@@ -34,6 +34,6 @@ pytest:
 pytest-print:
 	poetry run pytest -s  # видно все, что выводится с помощью print
 
-pytest-current:
-	poetry run pytest tests/test_.py
+pytest-c:
+	poetry run pytest tests/test_example.py
 

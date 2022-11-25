@@ -161,3 +161,4 @@ cython_debug/
 
 brain_tasks/scripts/s_examples.py
 brain_tasks/tasks/examples.py
+tests/test_example.py
