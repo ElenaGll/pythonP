@@ -1,10 +1,8 @@
 from brain_tasks.tasks.longest_length import find_longest_length
 
 
-if find_longest_length('jabcjdelg') != 8:
-    raise Exception('Функция работает неверно!')
+assert find_longest_length('jabcjdelg') == 8
 
-if find_longest_length('') != 0:
-    raise Exception('Функция работает неверно!')
+assert find_longest_length('') == 0
 
 print('Все тесты пройдены!')
