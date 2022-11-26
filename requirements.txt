@@ -1,4 +1,5 @@
 attrs          22.1.0 Classes Without Boilerplate
+coverage       6.5.0  Code coverage measurement for Python
 exceptiongroup 1.0.4  Backport of PEP 654 (exception groups)
 flake8         5.0.4  the modular source code checker: pep8 pyflakes and co
 iniconfig      1.1.1  iniconfig: brain-dead simple config-ini parsing
@@ -9,5 +10,6 @@ pycodestyle    2.9.1  Python style guide checker
 pyflakes       2.5.0  passive checker of Python programs
 pyparsing      3.0.9  pyparsing module - Classes and methods to define and ...
 pytest         7.2.0  pytest: simple powerful testing with Python
+pytest-cov     4.0.0  Pytest plugin for measuring coverage.
 pyttsx3        2.90   Text to Speech (TTS) library for Python 2 and 3. Work...
 tomli          2.0.1  A lil' TOML parser

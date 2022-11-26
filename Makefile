@@ -37,3 +37,5 @@ pytest-print:
 pytest-c:
 	poetry run pytest tests/test_example.py
 
+pytest-cov:
+	poetry run pytest --cov  # измерить покрытие кода тестами

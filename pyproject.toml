@@ -10,6 +10,7 @@ packages = [{ include = "brain_tasks" }]
 [tool.poetry.dependencies]
 python = "^3.10"
 pyttsx3 = "^2.90"
+pytest-cov = "^4.0.0"
 
 [tool.poetry.scripts]
 longest-lenght = "brain_tasks.scripts.s_longest_lenght:main"
