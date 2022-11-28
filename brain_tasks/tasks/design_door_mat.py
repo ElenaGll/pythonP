@@ -6,5 +6,5 @@ for i in range(N // 2):
     x += 2
 print('WELCOME'.center(M, '-'))
 for i in range(N // 2):
-    print(('.|.' * (x -2)).center(M, '-'))
+    print(('.|.' * (x - 2)).center(M, '-'))
     x -= 2

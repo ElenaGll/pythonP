@@ -1,10 +1,10 @@
-def foo(lst):
-    # N = int(input())
-    # lst = []
-    # for _ in range(N):
-    #     operation, *number = input().split()
-    #     lst += [operation]
-    #     lst += list(map(int, number))
+def foo():
+    n = int(input())
+    lst = []
+    for _ in range(n):
+        operation, *number = input().split()
+        lst += [operation]
+        lst += list(map(int, number))
 
     result = []
     i = 0
@@ -32,7 +32,4 @@ def foo(lst):
             i += 1
 
 
-foo(['insert', 0, 5, 'insert', 1, 10, 'insert', 0, 6, 'print', 'remove', 6,
-           'append', 9, 'append', 1, 'sort', 'print', 'pop', 'reverse', 'print'])
-
-
+foo()
