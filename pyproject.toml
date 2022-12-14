@@ -11,6 +11,7 @@ packages = [{ include = "brain_tasks" }]
 python = "^3.10"
 pyttsx3 = "^2.90"
 pytest-cov = "^4.0.0"
+hexlet-immutable-fs-trees = {git = "https://github.com/hexlet-components/python-immutable-fs-trees.git"}
 
 [tool.poetry.scripts]
 longest-lenght = "brain_tasks.scripts.s_longest_lenght:main"
