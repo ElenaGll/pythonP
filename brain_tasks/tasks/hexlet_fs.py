@@ -1,5 +1,5 @@
 from hexlet.fs import mkdir, mkfile, get_children, get_name
-from hexlet.fs import get_meta, is_file, is_directory, flatten
+from hexlet.fs import get_meta, is_file, is_directory
 import os
 
 
